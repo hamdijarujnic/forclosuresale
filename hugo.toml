@@ -1,0 +1,34 @@
+# =========================
+# MAIN NAVIGATION MENU
+# =========================
+
+[menu]
+
+  [[menu.main]]
+    name = "Home"
+    url = "/"
+    weight = 10
+
+  [[menu.main]]
+    name = "Foreclosure Listings"
+    url = "/foreclosure-listings/"
+    weight = 20
+
+  [[menu.main]]
+    name = "Property Search"
+    url = "https://www.rujnic.ca/"
+    weight = 30
+
+    [menu.main.params]
+      external = true
+
+  [[menu.main]]
+    name = "Client Centre"
+    url = "/client-centre/"
+    weight = 40
+
+  [[menu.main]]
+    name = "About Me"
+    url = "/about/"
+    weight = 50
+

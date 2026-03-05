@@ -1,0 +1,28 @@
+!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>{{ if .Title }}{{ .Title }} | {{ end }}forclosuresale.ca</title>
+</head>
+<body style="margin:0;font-family:system-ui;line-height:1.6;">
+
+  <div style="background:#fffae6;border-bottom:1px solid #e5e5e5;padding:8px 16px;">
+    BASEOF LOADED ✅ | menu items: {{ len site.Menus.main }}
+  </div>
+
+  <header style="border-bottom:1px solid #e5e5e5;">
+    <nav style="max-width:1000px;margin:0 auto;padding:14px 16px;display:flex;gap:16px;flex-wrap:wrap;">
+      {{ range site.Menus.main }}
+        <a href="{{ .URL }}"
+           style="text-decoration:none;color:#111;font-weight:600;"
+           {{ if .Params.external }}target="_blank" rel="noopener noreferrer"{{ end }}>
+          {{ .Name }}
+        </a>
+      {{ end }}
+    </nav>
+  </header>
+
+  {{ block "main" . }}{{ end }}
+
+</body>
+</html>
