@@ -1,4 +1,47 @@
+
 {{ define "main" }}
-  <h1>{{ .Title }}</h1>
-  {{ .Content }}
+
+<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:18px;">
+
+  <div style="flex:0 0 46px;">
+    <img src="/images/tricity-listings-logo.png"
+         alt="Tri-City Listings Logo"
+         width="46"
+         style="display:block;margin-top:2px;">
+  </div>
+
+  <div style="flex:1;min-width:0;padding-left:16px;">
+    <div style="font-size:24px;font-weight:700;line-height:1.15;color:#111;">
+      Hamdija Rujnic
+    </div>
+
+    <div style="font-size:16px;color:#666;margin-top:4px;">
+      Realtor®
+    </div>
+
+   <div style="margin-top:10px;font-size:16px;line-height:1.55;color:#444;max-width:500px;">
+  Guiding buyers through foreclosure and court-ordered property opportunities in Metro Vancouver.
+</div>
+
+    <div style="margin-top:10px;font-size:16px;line-height:1.45;color:#222;">
+      Phone: 604-537-1600<br>
+      Email: vanmetro.ca
+    </div>
+  </div>
+
+  <div style="flex:0 0 60px;">
+    <img src="/images/hamdija-rujnic-realtor.webp"
+         alt="Hamdija Rujnic Realtor Tri-Cities Vancouver"
+         width="60"
+         style="border-radius:4px;display:block;margin-top:8px;">
+  </div>
+
+</div>
+
+<h1 style="margin-top:28px;font-size:34px;line-height:1.2;">
+  {{ .Title }}
+</h1>
+
+{{ .Content }}
+
 {{ end }}
