@@ -1,5 +1,4 @@
 ---
 title: "Foreclosure Listings"
+layout: "foreclosure-listings"
 ---
-
-Listings coming soon.
