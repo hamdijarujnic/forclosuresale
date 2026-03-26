@@ -1,14 +1,12 @@
-
 {{ define "main" }}
 
-<div style="display:flex;align-items:flex-start;justify-content:space-between;gap:18px;">
-
-  <div style="flex:0 0 46px;">
-    <img src="/images/tricity-listings-logo.png"
-         alt="Tri-City Listings Logo"
-         width="46"
-         style="display:block;margin-top:2px;">
-  </div>
+<div style="display:flex; align-items:flex-start; justify-content:space-between; gap:24px; flex-wrap:nowrap;">
+  <div style="flex:0 0 auto;">
+  <img src="/images/tricity-listings-logo.png"
+       alt="Tri-City Listings Logo"
+       width="46"
+       style="display:block;margin-top:2px;">
+</div>
 
   <div style="flex:1;min-width:0;padding-left:16px;">
     <div style="font-size:24px;font-weight:700;line-height:1.15;color:#111;">
@@ -19,15 +17,17 @@
       Realtor®
     </div>
 
-   <div style="margin-top:10px;font-size:16px;line-height:1.55;color:#444;max-width:500px;">
-  Guiding buyers through foreclosure and court-ordered property opportunities in Metro Vancouver.
-  
-<div style="margin-top:10px;font-size:16px;line-height:1.45;color:#222;">
-  Phone: 604-537-1600<br>
-  Email: <a href="mailto:contact@vanmetro.ca">contact@vanmetro.ca</a>
-</div>
+    <div style="margin-top:10px;font-size:16px;line-height:1.55;color:#444;max-width:500px;">
+      Guiding buyers through foreclosure and court-ordered property opportunities in Metro Vancouver.
+    </div>
 
-  <div style="flex:0 0 60px;">
+    <div style="margin-top:10px;font-size:16px;line-height:1.45;color:#222;">
+      Phone: 604-537-1600<br>
+      Email: <a href="mailto:contact@vanmetro.ca">contact@vanmetro.ca</a>
+    </div>
+  </div>
+
+  <div style="flex:0 0 60px; align-self:flex-start;">
     <img src="/images/hamdija-rujnic-realtor.webp"
          alt="Hamdija Rujnic Realtor Tri-Cities Vancouver"
          width="60"
@@ -39,6 +39,7 @@
 <h1 style="margin-top:28px;font-size:34px;line-height:1.2;">
   {{ .Title }}
 </h1>
+<hr style="margin:12px 0 18px 0; border:none; border-top:1px solid #d4d4d4;">
 
 {{ .Content }}
 

@@ -3,14 +3,16 @@ title: "Foreclosures & Court-Ordered Sales in Metro Vancouver"
 draft: false
 ---
 
-# Welcome
+# How I Can Help
 
-Thanks for stopping by — I’m redesigning the site with faster, modern technology to better serve buyers and sellers.
+Whether you're exploring your first opportunity or navigating a more complex purchase, my goal is to keep the process clear and manageable.
+You will never be rushed, pressured, or left without clear answers.
 
 I help buyers understand:
 
-- Foreclosure listings
-- Court-ordered sales
-- Property search
-- Market updates
+• Finding suitable foreclosure listings  
+• Understanding court-ordered sales  
+• Searching for the right property  
+• Staying informed about market changes
+
 
