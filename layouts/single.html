@@ -1,5 +1,14 @@
 {{ define "main" }}
 
+<main style="max-width:1000px; margin:40px auto; padding:0 20px; line-height:1.7; color:#222;">
 
+  {{ if .Title }}
+    <h1>{{ .Title }}</h1>
+  {{ end }}
+
+  {{ .Content }}
+
+</main>
 
 {{ end }}
+
