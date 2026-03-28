@@ -18,15 +18,19 @@ As a client, you receive a professional market evaluation based on real MLS® sa
 
 **Buyers benefit from:**
 
-- Understanding true market value  
-- Avoiding overpaying  
-- Making confident offers  
-- Better decision-making 
- ![Tri-Cities Home Price Comparison 2026](/images/tricities-home-price-2026.webp)
+- Understanding true market value
+- Avoiding overpaying
+- Making confident offers
+- Better decision-making
+
+![Tri-Cities Home Price Comparison 2026](/images/tricities-home-price-2026.webp)
+
 <p style="font-size:14px; color:#555; margin-top:8px; margin-bottom:20px;">
 Snapshot of 2026 — Tri-Cities Home Price Comparison
 </p>
+
 Useful links:
 - Property Search: https://rujnic.ca/
--Contact me at: contact@vanmetro.ca
+- Contact me at: contact@vanmetro.ca
+
 
