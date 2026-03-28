@@ -9,148 +9,151 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
-  <style>
-    * { box-sizing: border-box; }
+<style>
+  * { box-sizing: border-box; }
 
-    html, body {
-      margin: 0;
-      padding: 0;
-      max-width: 100%;
-      overflow-x: hidden;
-    }
+  html, body {
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+    overflow-x: hidden;
+  }
 
-    body {
-      font-family: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
-      font-size: 20px;
-      line-height: 1.7;
-      color: #111;
-      background: #ffffff;
-    }
+  body {
+    font-family: "Inter", system-ui, -apple-system, "Segoe UI", Arial, sans-serif;
+    font-size: 20px;
+    line-height: 1.7;
+    color: #111;
+    background: #ffffff;
+  }
 
-    header {
-      background: #0a2a66;
-      border-bottom: 1px solid rgba(255,255,255,0.15);
-    }
+  header {
+    background: #0a2a66;
+    border-bottom: 1px solid rgba(255,255,255,0.15);
+  }
+
+  nav {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 14px 0;
+    display: flex;
+    justify-content: center;
+    gap: 28px;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 8px 10px;
+    border-radius: 10px;
+    display: inline-block;
+  }
+
+  nav a:hover,
+  nav a:focus {
+    background: rgba(255,255,255,0.15);
+    outline: none;
+  }
+
+  main {
+    max-width: 900px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 24px 0;
+    background: #ffffff;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+  }
+
+  img, video, iframe {
+    max-width: 100%;
+    height: auto;
+  }
+
+  footer {
+    margin-top: 60px;
+    padding: 36px 0;
+    background: #4a4a4a;
+  }
+
+  .footer-inner {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 0 16px;
+    font-size: 14px;
+    line-height: 1.6;
+    color: #d8d8d8;
+  }
+
+  .footer-inner strong {
+    color: #ffffff;
+  }
+
+  /* Page layout */
+
+  .foreclosure-page {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 40px 20px 60px 20px;
+  }
+
+  .tri-cities-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    margin: 0 0 20px 0;
+  }
+
+  .buyer-education-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 20px;
+  }
+
+  .tri-cities-grid > div,
+  .buyer-education-grid > div {
+    width: 100%;
+    height: auto;
+  }
+
+  /* Mobile */
+
+  @media (max-width: 768px) {
 
     nav {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 14px 0;
-      display: flex;
-      justify-content: center;
-      gap: 28px;
-      align-items: center;
-      flex-wrap: wrap;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 8px;
+      padding: 14px 16px;
     }
 
     nav a {
-      text-decoration: none;
-      color: #ffffff;
-      font-weight: 600;
-      padding: 8px 10px;
-      border-radius: 10px;
-      display: inline-block;
-    }
-
-    nav a:focus,
-    nav a:hover {
-      outline: none;
-      background: rgba(255,255,255,0.15);
+      width: 100%;
+      padding: 12px 12px;
+      background: rgba(255,255,255,0.08);
     }
 
     main {
-      max-width: 900px;
-      width: 100%;
-      margin: 0 auto;
-      padding: 24px 0;
-      background: #ffffff;
-      box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+      padding: 18px 14px;
     }
 
-    p {
-      line-height: 1.7;
+    .foreclosure-page {
+      padding: 24px 16px 40px 16px;
     }
 
-    h1 {
-      margin-top: 28px;
+    .tri-cities-grid {
+      grid-template-columns: 1fr;
     }
 
-    h2 {
-      margin-top: 24px;
+    .buyer-education-grid {
+      grid-template-columns: 1fr;
     }
 
-    img, video, iframe {
-      max-width: 100%;
-      height: auto;
-    }
+  }
+</style>
 
-    pre, code {
-      white-space: pre-wrap;
-      overflow-wrap: anywhere;
-      word-break: break-word;
-    }
-
-    p, li {
-      overflow-wrap: anywhere;
-      word-break: break-word;
-    }
-
-    table {
-      width: 100%;
-      display: block;
-      overflow-x: auto;
-    }
-
-    footer {
-      margin-top: 60px;
-      padding: 36px 0;
-      background: #4a4a4a;
-    }
-
-    .footer-inner {
-      max-width: 900px;
-      margin: 0 auto;
-      padding: 0 16px;
-      font-size: 14px;
-      line-height: 1.6;
-      color: #d8d8d8;
-    }
-
-    .footer-inner strong {
-      color: #ffffff;
-    }
-
-    @media (max-width: 700px) {
-      nav {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 8px;
-        padding: 14px 16px;
-      }
-
-      nav a {
-        width: 100%;
-        padding: 12px 12px;
-        background: rgba(255,255,255,0.08);
-      }
-
-      main {
-        padding: 18px 14px;
-      }
-
-      h1 {
-        font-size: 28px;
-        line-height: 1.2;
-        margin: 0 0 10px 0;
-      }
-
-      h2 {
-        font-size: 20px;
-        line-height: 1.3;
-        margin: 22px 0 8px 0;
-      }
-    }
-  </style>
 </head>
 
 <body>
