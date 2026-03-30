@@ -25,7 +25,6 @@ As a client, you receive a professional market evaluation based on real MLS® sa
 
 <div style="
 background:#f4f7fb;
-border-left:3px solid #1e3a5f;
 padding:12px 16px;
 margin-top:14px;
 margin-bottom:18px;
@@ -33,9 +32,16 @@ font-size:15px;
 line-height:1.6;
 ">
 
+<div style="
+border-left:3px solid #1e3a5f;
+padding-left:12px;
+">
+
 <strong>Pricing Insight:</strong><br>
 Median and average prices can change depending on what types of homes sell in a given month.  
 The <strong>benchmark price</strong> provides a more reliable guide to true market value, helping buyers avoid overpaying and helping sellers price correctly to reduce time on the market.
+
+</div>
 
 </div>
 
