@@ -23,7 +23,21 @@ As a client, you receive a professional market evaluation based on real MLS® sa
 - Making confident offers
 - Better decision-making
 
-Median and average prices can be misleading because they are influenced by the mix of homes sold in a given month. The benchmark price provides a more reliable measure of true market value, helping buyers avoid overpaying and sellers price their property correctly to reduce time on the market.
+<div style="
+background:#f4f7fb;
+border-left:4px solid #1e3a5f;
+padding:14px 16px;
+margin-top:14px;
+margin-bottom:18px;
+font-size:15px;
+line-height:1.6;
+">
+
+<strong>Pricing Insight:</strong>  
+Median and average prices can change depending on what types of homes sell in a given month.  
+The <strong>benchmark price</strong> provides a more reliable guide to true market value, helping buyers avoid overpaying and helping sellers price correctly to reduce time on the market.
+
+</div>
 
 ![Tri-Cities Home Price Comparison 2026](/images/tricities-home-price-2026.webp)
 
