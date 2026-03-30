@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://forclosuresale.ca/sitemap.xml
