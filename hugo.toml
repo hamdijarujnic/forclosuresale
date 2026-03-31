@@ -1,3 +1,7 @@
+baseURL = "https://forclosuresale.ca/"
+languageCode = "en-ca"
+title = "forclosuresale.ca"
+
 # =========================
 # MAIN NAVIGATION MENU
 # =========================
@@ -32,9 +36,8 @@
     url = "/about/"
     weight = 50
 
-
-
 [markup]
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+      
