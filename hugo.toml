@@ -40,4 +40,5 @@ title = "forclosuresale.ca"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+      disableKinds = ["taxonomy", "term"]
       
