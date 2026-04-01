@@ -1,6 +1,7 @@
 baseURL = "https://forclosuresale.ca/"
 languageCode = "en-ca"
 title = "forclosuresale.ca"
+[taxonomies]
 
 # =========================
 # MAIN NAVIGATION MENU
@@ -40,5 +41,6 @@ title = "forclosuresale.ca"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
-      disableKinds = ["taxonomy", "term"]
-      
+
+
+
