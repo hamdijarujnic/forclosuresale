@@ -1,5 +1,6 @@
 ---
 title: "Foreclosures & Court-Ordered Sales in Metro Vancouver"
+description: "Foreclosures and court-ordered sales in Metro Vancouver. Explore Tri-Cities market insights, foreclosure opportunities, and property search support."
 draft: false
 ---
 
