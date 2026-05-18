@@ -1,5 +1,6 @@
 ---
 title: "About Hamdija Rujnic"
+description: "Learn about Hamdija Rujnic, Realtor® serving Coquitlam, Port Moody, Port Coquitlam, and Metro Vancouver foreclosure buyers."
 ---
 
 I am a Realtor® serving the Tri-Cities — Coquitlam, Port Moody, and Port Coquitlam — helping buyers and sellers navigate today’s real estate market with clear guidance and practical advice.
